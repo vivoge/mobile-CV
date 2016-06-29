@@ -1,0 +1,215 @@
+
+#selflogins {
+    width: 500px;
+
+    height: auto;
+    zoom: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top:-203px;
+    margin-left:-250px;
+    opacity: 1;
+
+    display: none;
+    visibility: hidden;
+    z-index: -9999;
+}
+
+
+.lognav {
+    width: 500px;
+    height: 42px;
+}
+
+.lognav h2 {
+    height: 42px;
+    line-height: 42px;
+    text-indent: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    color: rgb(51, 51, 51);
+    background: rgb(240, 240, 240);
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.lognav span {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    cursor: pointer;
+    display: block;
+    height: 23px;
+    width: 23px;
+    background: url(../img/pub_icon.png) 0px -142px no-repeat;
+}
+
+.login_body {
+    width: 500px;
+    height: 363px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.login_b_1 {
+    padding: 10px;
+    width: auto;
+    line-height: 22px;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    font-weight: normal;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.dialogic {
+    display: block;
+    visibility: visible;
+    zoom: 1;
+    opacity: 1;
+}
+
+.dialogic_1 {
+    width: 530px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    clear: both;
+    position: relative;
+}
+
+.dialogic_2 {
+    width: 352px;
+    height: 100%;
+    overflow: hidden;
+    padding: 5px 0 0 35px;
+    float: left;
+}
+
+.user_inp {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0 #eaeaea inset;
+    color: #ccc;
+    height: 30px;
+    padding: 9px 3px 3px 54px;
+    display: block;
+    width: 290px;
+    background: url(../img/pub_icon.png) no-repeat;
+}
+
+.focusText {
+    border: 0 none;
+    width: 290px;
+    height: 24px;
+    color: #808080;
+    font: 22px/24px verdana, lucida, arial, helvetica, 'ËÎÌå', sans-serif;
+    vertical-align: -3px;
+    outline: none;
+    background: #fff;
+}
+
+.overTxtLabel {
+    line-height: 24px;
+    height: 24px;
+    position: absolute;
+    cursor: text;
+    color: rgb(221, 221, 221);
+    width: 290px;
+    text-indent: 6px;
+    left: 230px;
+    top: 16px;
+}
+
+.user_in {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0 #eaeaea inset;
+    color: #ccc;
+    height: 30px;
+    padding: 9px 3px 3px 54px;
+    display: block;
+    width: 290px;
+    background: url(../img/pub_icon.png) 0 -35px no-repeat;
+}
+
+.focusTextps {
+    border: 0 none;
+    width: 290px;
+    height: 24px;
+    color: #808080;
+    font: 22px/24px verdana, lucida, arial, helvetica, 'ËÎÌå', sans-serif;
+    vertical-align: -3px;
+    outline: none;
+    background: #fff;
+}
+
+.overTxtLabelps {
+    line-height: 24px;
+    height: 24px;
+    position: absolute;
+    cursor: text;
+    color: rgb(221, 221, 221);
+    width: 290px;
+    text-indent: 6px;
+    left: 230px;
+    top: 80px;
+}
+
+.hid_inp {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0 #eaeaea inset;
+    color: #ccc;
+    height: 30px;
+    padding: 9px 5px 3px;
+    display: block;
+    width: 168px;
+}
+
+.focusTexthid {
+    border: 0 none;
+    width: 168px;
+    height: 24px;
+    color: #808080;
+    font: 22px/24px verdana, lucida, arial, helvetica, 'ËÎÌå', sans-serif;
+    vertical-align: -3px;
+    outline: none;
+    background: #fff;
+
+}
+
+#FTHID::-webkit-input-placeholder {
+    color: rgb(221, 221, 221);
+    font: 12px/22px verdana, Arial, Helvetica, 'ËÎÌå', sans-serif;
+    text-transform:uppercase;
+}
+
+.overTxtLabelhid {
+    line-height: 24px;
+    height: 24px;
+    position: absolute;
+    cursor: text;
+    color: rgb(221, 221, 221);
+    width: 168px;
+    text-indent: 6px;
+    left: 6px;
+    top: 11px;
+}
+
+.denglu {
+    display: block;
+    width: 180px;
+    height: 60px;
+    background: url(../img/pub_icon.png) -11px -1323px no-repeat;
+    font: 30px/60px 'Î¢ÈíÑÅºÚ', Arial, Helvetica, 'ËÎÌå';
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+}

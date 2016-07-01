@@ -160,8 +160,8 @@ html, body, .swiper-container, .swiper-slide {
     animation: fadeInDown 1s both;
 }
 #page1 > img:nth-child(2) {
-    -webkit-animation: pulse 1s 1.2s both;
-    animation: pulse 1s 1.2s both;
+    -webkit-animation: pulse 1s 1s both;
+    animation: pulse 1s 1s both;
 }
 #page1 > img:nth-child(3) {
     -webkit-animation: zoomIn 1s 4.5s both;
@@ -308,6 +308,7 @@ html, body, .swiper-container, .swiper-slide {
     background-size: cover;
 }
 .page4>img {position: absolute;opacity: 0;}
+.page4>span {position: absolute;display: block;opacity: 0;}
 
 .page4>img:nth-child(1) {  top: 0;  left: 0;  width: 6.42rem;  height: 6.42rem;  }
 .page4>img:nth-child(2) {  top: 5rem;  left: 0;  width: 6.42rem;  height: 2.48rem;  }
@@ -315,6 +316,8 @@ html, body, .swiper-container, .swiper-slide {
 .page4>img:nth-child(4) {  top: 11%;  left: 19%;  width: 1.44rem;  height: 1.24rem;  }
 .page4>img:nth-child(5) {  top: 23%;  left: 39%;  width: 1.44rem;  height: 4.55rem;  }
 .page4>img:nth-child(6) {  top: 41%;  right: 19%;  width: 1.44rem;  height: 1.24rem;  }
+.page4>span:nth-child(7) {font-size: .3rem;color: #ff6d02;left: 31%;top: 7.9rem;letter-spacing:.02rem;font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;}
+.page4>span:nth-child(8) {font-size: .3rem;color: #ff6d02;left: 29%;top: 9rem;letter-spacing:.02rem;font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;}
 
 /*page4动画S*/
 #page4 > img:nth-child(1) {
@@ -323,26 +326,33 @@ html, body, .swiper-container, .swiper-slide {
 }
 
 #page4 > img:nth-child(2) {
-    -webkit-animation: pulse 3s linear infinite both;
-    animation: pulse 3s linear infinite both;
+    -webkit-animation: pulse1 3s linear infinite both;
+    animation: pulse1 3s linear infinite both;
 }
 #page4 > img:nth-child(3) {
-    -webkit-animation: pulse 3s 1s linear infinite both;
-    animation: pulse 3s 1s linear infinite both;
+    -webkit-animation: pulse1 3s 1s linear infinite both;
+    animation: pulse1 3s 1s linear infinite both;
 }
 #page4 > img:nth-child(4) {
-    -webkit-animation: pulse 3s 1.5s linear infinite both;
-    animation: pulse 3s 1.5s linear infinite both;
+    -webkit-animation: pulse1 3s 1.5s linear infinite both;
+    animation: pulse1 3s 1.5s linear infinite both;
 }
 #page4 > img:nth-child(5) {
-    -webkit-animation: pulse 3s 1s linear infinite both;
-    animation: pulse 3s 1s linear infinite both;
+    -webkit-animation: pulse1 3s 1s linear infinite both;
+    animation: pulse1 3s 1s linear infinite both;
 }
 #page4 > img:nth-child(6) {
-    -webkit-animation: pulse 3s 1.5s linear infinite both;
-    animation: pulse 3s 1.5s linear infinite both;
+    -webkit-animation: pulse1 3s 1.5s linear infinite both;
+    animation: pulse1 3s 1.5s linear infinite both;
 }
-
+#page4 > span:nth-child(7) {
+     -webkit-animation: shake 1s infinite both;
+     animation: shake 1s infinite both;
+ }
+#page4 > span:nth-child(8) {
+    -webkit-animation: fadeIn 1s 1s both;
+    animation: fadeIn 1s 1s both;
+}
 
 
 
@@ -378,52 +388,6 @@ html, body, .swiper-container, .swiper-slide {
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-}
-
-@-webkit-keyframes pulse {
-    from {
-
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-
-    50% {
-
-        -webkit-transform: scale3d(1.05, 1.05, 1.05);
-        transform: scale3d(1.05, 1.05, 1.05);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-
-@keyframes pulse {
-    from {
-
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-
-    50% {
-
-        -webkit-transform: scale3d(1.05, 1.05, 1.05);
-        transform: scale3d(1.05, 1.05, 1.05);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-
-.pulse {
-    opacity: 1;
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
 }
 
 @-webkit-keyframes zoomIn {
@@ -818,6 +782,7 @@ html, body, .swiper-container, .swiper-slide {
 
 @-webkit-keyframes pulse {
     from {
+
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
     }
@@ -828,6 +793,7 @@ html, body, .swiper-container, .swiper-slide {
     }
 
     to {
+        opacity: 1;
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
     }
@@ -845,6 +811,7 @@ html, body, .swiper-container, .swiper-slide {
     }
 
     to {
+        opacity: 1;
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
     }
@@ -853,6 +820,93 @@ html, body, .swiper-container, .swiper-slide {
 .pulse {
     -webkit-animation-name: pulse;
     animation-name: pulse;
+}
+
+
+
+@-webkit-keyframes pulse1 {
+    from {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes pulse1 {
+    from {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.pulse1 {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+@-webkit-keyframes shake {
+    from, to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+@keyframes shake {
+    from, to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    animation-name: shake;
 }
 
 /*兼顾PAD设备*/

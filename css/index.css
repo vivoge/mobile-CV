@@ -137,13 +137,14 @@ html, body, .swiper-container, .swiper-slide {
     height:2.4rem;
 }
 .page1>img:nth-child(3){
-    top: 7.5rem;;
+    
+     bottom: 1rem;
     left: 17%;
     width:4.4rem;
     height:2.15rem;
 }
 .page1>img:nth-child(4){
-    top: 6.4rem;
+    bottom: 3.5rem;
     left: 12%;
     width:5.05rem;
     height:0.66rem;

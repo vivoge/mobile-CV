@@ -137,14 +137,15 @@ html, body, .swiper-container, .swiper-slide {
     height:2.4rem;
 }
 .page1>img:nth-child(3){
-    
-     bottom: 1rem;
+    /*top: 7.5rem;*/
+    bottom: 1rem;
     left: 17%;
     width:4.4rem;
     height:2.15rem;
 }
 .page1>img:nth-child(4){
-    bottom: 3.5rem;
+    /*top: 6.4rem;*/
+    bottom: 4rem;
     left: 12%;
     width:5.05rem;
     height:0.66rem;
@@ -913,6 +914,7 @@ html, body, .swiper-container, .swiper-slide {
 /*兼顾PAD设备*/
 
 @media only screen and (min-width:750px){
+
 .page1>img:nth-child(1){  top: -1rem;}
 .page1>img:nth-child(2){  top: 1rem;}
 .page1>img:nth-child(3){  top: 5.8rem;}
@@ -925,4 +927,16 @@ html, body, .swiper-container, .swiper-slide {
 .page1>img:nth-child(9){top: 5.8rem;}
 
 
+}
+
+@media only screen and (device-aspect-ratio:411/731){
+    .page1>img:nth-child(3){
+
+        bottom: 1rem;
+
+    }
+    .page1>img:nth-child(4) {
+
+        bottom: 3.5rem;
+    }
 }

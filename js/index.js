@@ -43,6 +43,7 @@ window.setTimeout(function () {
         music.className = "music move";
     }, false);
 }, 1000);
+
 music.addEventListener("click", function () {
 
     if (musicAudio.paused) {

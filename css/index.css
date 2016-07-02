@@ -910,7 +910,7 @@ html, body, .swiper-container, .swiper-slide {
 }
 
 /*兼顾PAD设备*/
-
+/*
 @media only screen and (min-width:750px){
 .page1>img:nth-child(1){  top: -1rem;}
 .page1>img:nth-child(2){  top: 1rem;}
@@ -924,4 +924,4 @@ html, body, .swiper-container, .swiper-slide {
 .page1>img:nth-child(9){top: 5.8rem;}
 
 
-}
+}*/

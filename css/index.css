@@ -930,13 +930,19 @@ html, body, .swiper-container, .swiper-slide {
 }
 
 @media only screen and (device-aspect-ratio:411/731){
-    .page1>img:nth-child(3){
+    .page1>img:nth-child(3){  bottom: 1rem;  }
+    .page1>img:nth-child(4) {  bottom: 3.5rem;  }
+}
 
-        bottom: 1rem;
+@media only screen and (max-width: 1000px){
+    .page1>img:nth-child(1){  top: -1rem;}
+    .page1>img:nth-child(2){  top: 1rem;}
+    .page1>img:nth-child(3){  top: 5.8rem;}
+    .page1>img:nth-child(4){  top: 4.8rem;}
 
-    }
-    .page1>img:nth-child(4) {
-
-        bottom: 3.5rem;
-    }
+    .page1>span:nth-child(5){top: 1.5rem;}
+    .page1>span:nth-child(6){top: 2.4rem;}
+    .page1>span:nth-child(7){top: 3.5rem;}
+    .page1>span:nth-child(8){top: 4.2rem;}
+    .page1>img:nth-child(9){top: 5.8rem;}
 }
